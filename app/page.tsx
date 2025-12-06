@@ -4,14 +4,18 @@ import SlantedSection from "./components/SlantedSection";
 import DestinationsMinimal from "./components/Destination";
 import AboutSection from "./components/AboutSection";
 import Footer from "./components/Footer";
+import Team from "./components/Team";
+import Vision from "./components/Vision";
 export default function Home() {
   return (
     <div className="">
       <Header />
       <HeroSection />
       <AboutSection />
+      <Vision />
       <SlantedSection />
       <DestinationsMinimal />
+      <Team />
       <Footer />
     </div>
   );

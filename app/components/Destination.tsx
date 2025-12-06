@@ -15,7 +15,7 @@ const DestinationsMinimal = () => {
   const [hoveredIndex, setHoveredIndex] = React.useState<number | null>(null);
 
   return (
-    <section className="py-12 md:py-16 bg-white">
+    <section id='destination' className="py-12 md:py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-8">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 uppercase mb-2">

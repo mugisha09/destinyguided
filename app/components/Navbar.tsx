@@ -23,11 +23,11 @@ const Header = () => {
     },
     { 
       name: 'OUR SERVICES', 
-      href: '#services',
+      href: '#about',
       dropdown: [
-        { name: 'School & University Application ', href: '#admissions' },
-        { name: 'Visa Counseling & Processing', href: '#visa' },
-        { name: 'Career Guidance', href: '#test-prep' },
+        { name: 'School & University Application ', href: '#destination' },
+        { name: 'Visa Counseling & Processing', href: '#process' },
+        { name: 'Career Guidance', href: '#about' },
       ]
     },
     { name: 'CONTACT US', href: '#contact' },
@@ -74,9 +74,7 @@ const Header = () => {
                   </a>
                 ))}
               </div>
-              <button className="px-3 py-1 bg-red-600 text-white text-xs font-semibold rounded hover:bg-red-700 transition-colors">
-                Free Assessment
-              </button>
+              
             </div>
           </div>
         </div>

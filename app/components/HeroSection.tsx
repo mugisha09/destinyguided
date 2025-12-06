@@ -31,7 +31,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
             fill
             priority
             className="object-cover object-center"
-            quality={90}
+            quality={75}
             sizes="100vw"
           />
           

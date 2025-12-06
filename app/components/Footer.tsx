@@ -116,7 +116,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-gray-500 text-sm">Email Us</p>
-                  <p className="text-gray-900 font-semibold">info@studyabroad.com</p>
+                  <p className="text-gray-900 font-semibold">info@destinyguided.com</p>
                   <p className="text-gray-400 text-xs mt-1">24/7 Support</p>
                 </div>
               </div>
@@ -151,23 +151,11 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-center md:text-left">
             <p className="text-gray-500 text-sm">
-              © {new Date().getFullYear()} Study Abroad Education Counsellors. All rights reserved.
+              © {new Date().getFullYear()} Destiny Guided Education Counsellors. All rights reserved.
             </p>
           </div>
           
-          <div className="flex items-center space-x-6">
-            <a href="#" className="text-gray-500 hover:text-red-600 transition-colors text-sm">
-              Privacy Policy
-            </a>
-            <div className="w-1 h-1 bg-gray-300 rounded-full"></div>
-            <a href="#" className="text-gray-500 hover:text-red-600 transition-colors text-sm">
-              Terms of Service
-            </a>
-            <div className="w-1 h-1 bg-gray-300 rounded-full"></div>
-            <a href="#" className="text-gray-500 hover:text-red-600 transition-colors text-sm">
-              Cookie Policy
-            </a>
-          </div>
+          
         </div>
       </div>
 
