@@ -17,7 +17,6 @@ const Header = () => {
       href: '#about',
       dropdown: [
         { name: 'Our Story', href: '#story' },
-        { name: 'Our Team', href: '#team' },
         { name: 'Accreditations', href: '#accreditations' },
       ]
     },
