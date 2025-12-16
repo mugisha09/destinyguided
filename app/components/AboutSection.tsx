@@ -157,9 +157,7 @@ const AboutUs = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
               </button>
-              <button className="px-6 py-3 md:px-8 md:py-4 border-2 border-gray-300 text-gray-700 font-semibold rounded-full hover:border-red-600 hover:text-red-600 transition-all duration-300 text-sm md:text-base">
-                Meet Our Team
-              </button>
+             
             </div>
           </div>
         </div>

@@ -52,11 +52,11 @@ const Header = () => {
               </div>
               <div className="hidden lg:flex items-center space-x-2">
                 <HiOutlineMail className="w-4 h-4 text-red-500" />
-                <span>info@studyabroad.com</span>
+                <span>info@destinyguided.com</span>
               </div>
               <div className="hidden xl:flex items-center space-x-2">
                 <HiOutlineLocationMarker className="w-4 h-4 text-red-500" />
-                <span>123 Education St, Knowledge City</span>
+                <span>Kigali Rwanda</span>
               </div>
             </div>
             

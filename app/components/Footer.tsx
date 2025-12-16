@@ -129,7 +129,7 @@ const Footer = () => {
                 <div>
                   <p className="text-gray-500 text-sm">Visit Us</p>
                   <p className="text-gray-900 font-semibold">123 Education Street</p>
-                  <p className="text-gray-400 text-xs mt-1">Knowledge City</p>
+                  <p className="text-gray-400 text-xs mt-1">Kigali,Rwanda</p>
                 </div>
               </div>
             </div>
