@@ -47,13 +47,10 @@ const Header = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-6 mb-2 md:mb-0">
               <div className="flex items-center space-x-2">
-                <FaPhone className="w-3 h-3 text-red-500" />
-                <span>+1 (555) 123-4567</span>
-              </div>
-              <div className="hidden lg:flex items-center space-x-2">
                 <HiOutlineMail className="w-4 h-4 text-red-500" />
                 <span>info@destinyguided.com</span>
               </div>
+              
               <div className="hidden xl:flex items-center space-x-2">
                 <HiOutlineLocationMarker className="w-4 h-4 text-red-500" />
                 <span>Kigali Rwanda</span>

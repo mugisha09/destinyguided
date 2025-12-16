@@ -104,8 +104,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-gray-500 text-sm">Call Us</p>
-                  <p className="text-gray-900 font-semibold">+1 (555) 123-4567</p>
-                  <p className="text-gray-400 text-xs mt-1">Mon-Fri: 9AM-6PM</p>
+                  <p className="text-gray-900 font-semibold">Mon-Fri: 9AM-6PM</p>
                 </div>
               </div>
               
@@ -128,7 +127,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-gray-500 text-sm">Visit Us</p>
-                  <p className="text-gray-900 font-semibold">123 Education Street</p>
+                  <p className="text-gray-900 font-semibold">Kicukiro</p>
                   <p className="text-gray-400 text-xs mt-1">Kigali,Rwanda</p>
                 </div>
               </div>
