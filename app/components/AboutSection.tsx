@@ -51,7 +51,7 @@ const AboutUs = () => {
             <div className="mt-12 bg-white rounded-2xl p-5 shadow-xl relative z-10 max-w-md mx-auto">
               <div className="grid grid-cols-3 gap-5">
                 <div className="text-center">
-                  <div className="text-2xl md:text-3xl font-bold text-red-600">10K+</div>
+                  <div className="text-2xl md:text-3xl font-bold text-red-600">100+</div>
                   <div className="text-gray-600 text-xs md:text-sm">Students Placed</div>
                 </div>
                 <div className="text-center border-x border-gray-100">
@@ -59,7 +59,7 @@ const AboutUs = () => {
                   <div className="text-gray-600 text-xs md:text-sm">Success Rate</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl md:text-3xl font-bold text-red-600">50+</div>
+                  <div className="text-2xl md:text-3xl font-bold text-red-600">10+</div>
                   <div className="text-gray-600 text-xs md:text-sm">Countries</div>
                 </div>
               </div>
@@ -109,7 +109,7 @@ const AboutUs = () => {
                 <div>
                   <h4 className="text-lg font-bold text-gray-900 mb-2">Global Network</h4>
                   <p className="text-gray-600 text-sm md:text-base">
-                    Partnerships with 500+ universities across 50+ countries ensuring 
+                    Partnerships with 20+ universities across 5+ countries ensuring 
                     the best options for every student.
                   </p>
                 </div>

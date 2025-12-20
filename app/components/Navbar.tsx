@@ -2,6 +2,7 @@
 "use client";
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import {  FaTimes, FaPhone, FaChevronDown, FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineMail, HiOutlineLocationMarker } from 'react-icons/hi';
@@ -48,7 +49,9 @@ const Header = () => {
             <div className="flex items-center space-x-6 mb-2 md:mb-0">
               <div className="flex items-center space-x-2">
                 <HiOutlineMail className="w-4 h-4 text-red-500" />
-                <span>info@destinyguided.com</span>
+                <a href="mailto:info@destinyguided.com" className="hover:underline">
+                  info@destinyguided.com
+                </a>
               </div>
               
               <div className="hidden xl:flex items-center space-x-2">
@@ -83,18 +86,15 @@ const Header = () => {
             
             {/* Logo */}
             <Link href="/" className="flex items-center space-x-3 group">
-              <div className="flex flex-col">
-                <span className="text-2xl md:text-3xl font-bold tracking-tight">
-                  <span className="text-red-600 group-hover:text-red-700 transition-colors">
-                    Destiny
-                  </span>
-                  <span className="text-gray-900 group-hover:text-gray-800 transition-colors">
-                    Guided
-                  </span>
-                </span>
-                <span className="text-xs font-medium text-gray-600 tracking-widest uppercase">
-                  Education Counsellors
-                </span>
+              <div className="relative w-[180px] h-[60px] md:w-[200px] md:h-[90px]">
+                <Image
+                  src="/destiny.svg" // SVG file path
+                  alt="Destiny Guided Education Counsellors"
+                  width={200} // set explicit width
+                  height={100} // set explicit height
+                  className="w-full h-full object-contain group-hover:opacity-90 transition-opacity"
+                  priority // optional: if this is above the fold
+                />
               </div>
             </Link>
 
