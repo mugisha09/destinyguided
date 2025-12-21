@@ -88,7 +88,7 @@ const Header = () => {
             <Link href="/" className="flex items-center space-x-3 group">
               <div className="relative w-[180px] h-[60px] md:w-[200px] md:h-[90px]">
                 <Image
-                  src="/destiny.svg" // SVG file path
+                  src="/dest.svg" // SVG file path
                   alt="Destiny Guided Education Counsellors"
                   width={200} // set explicit width
                   height={100} // set explicit height
