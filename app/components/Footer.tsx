@@ -41,7 +41,7 @@ const Footer = () => {
           <div>
             <div className="mb-6 relative w-[200px] h-[100px]">
               <Image
-                src="/destiny.svg"
+                src="/dest.svg"
                 alt="Destiny Guided Education Counsellors"
                 fill
                 className="object-contain"
