@@ -13,7 +13,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-white text-gray-800 pt-16 pb-10 relative overflow-hidden border-t border-gray-100">
+    <footer id='footer' className="bg-white text-gray-800 pt-16 pb-10 relative overflow-hidden border-t border-gray-100">
       {/* Decorative Background */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-10 right-10 w-32 h-32 border-2 border-red-100 rounded-full" />
@@ -131,7 +131,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-gray-500 text-sm">Call Us</p>
-                  <p className="font-semibold">+250 788 123 456</p>
+                  <p className="font-semibold">+250 785 096 263</p>
                 </div>
               </div>
 

@@ -17,8 +17,7 @@ const Header = () => {
       name: 'ABOUT US', 
       href: '#about',
       dropdown: [
-        { name: 'Our Story', href: '#story' },
-        { name: 'Accreditations', href: '#accreditations' },
+        { name: 'Our Story', href: '#about' },
       ]
     },
     { 
@@ -30,7 +29,7 @@ const Header = () => {
         { name: 'Career Guidance', href: '#about' },
       ]
     },
-    { name: 'CONTACT US', href: '#contact' },
+    { name: 'CONTACT US', href: '#footer' },
   ];
 
   const socialIcons = [
@@ -141,12 +140,12 @@ const Header = () => {
               ))}
               
               {/* CTA Button */}
-              <button className="ml-4 px-6 py-2 bg-red-600 text-white text-sm font-semibold rounded-full hover:bg-red-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl flex items-center space-x-2">
+              <Link href="#booking" className="ml-4 px-6 py-2 bg-red-600 text-white text-sm font-semibold rounded-full hover:bg-red-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl flex items-center space-x-2">
                 <span>Get Started</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
-              </button>
+              </Link>
             </nav>
 
             {/* Mobile Menu Button */}
@@ -216,10 +215,10 @@ const Header = () => {
                     </a>
                   ))}
                 </div>
-                <button className="w-full py-4 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 transition-colors flex items-center justify-center space-x-2">
+                <Link href="#booking" className="w-full py-4 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 transition-colors flex items-center justify-center space-x-2">
                   <FaPhone className="w-4 h-4" />
                   <span>Book Free Consultation</span>
-                </button>
+                </Link>
               </div>
             </div>
           </div>
