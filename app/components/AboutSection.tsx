@@ -78,13 +78,12 @@ const AboutUs = () => {
             
             {/* Main Heading */}
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-              We Shape Your <span className="text-red-600">Global</span> Future
+              Guiding  <span className="text-red-600">You to the Future</span>You’re Called to Live
             </h2>
             
             {/* Subheading */}
             <p className="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
-              We are dedicated education consultants with over 15 years of experience 
-              helping students achieve their dreams of studying abroad.
+              Destiny Guided is a purpose-driven education and career guidance company committed to helping young people discover clarity, direction, and global opportunities. With years of combined experience, we walk alongside students as they take bold steps toward studying abroad and building meaningful futures.
             </p>
             
             {/* Key Features */}
@@ -94,10 +93,9 @@ const AboutUs = () => {
                   <FaGraduationCap className="w-5 h-5 text-red-600" />
                 </div>
                 <div>
-                  <h4 className="text-lg font-bold text-gray-900 mb-2">Expert Guidance</h4>
+                  <h4 className="text-lg font-bold text-gray-900 mb-2">Purpose-Led Guidance</h4>
                   <p className="text-gray-600 text-sm md:text-base">
-                    Our experienced counselors provide personalized guidance for university selection, 
-                    applications, and visa processes.
+                   We help students choose programs and pathways aligned with their purpose—not just a degree.
                   </p>
                 </div>
               </div>
@@ -107,10 +105,9 @@ const AboutUs = () => {
                   <FaGlobeAmericas className="w-5 h-5 text-blue-600" />
                 </div>
                 <div>
-                  <h4 className="text-lg font-bold text-gray-900 mb-2">Global Network</h4>
+                  <h4 className="text-lg font-bold text-gray-900 mb-2">Global Opportunities</h4>
                   <p className="text-gray-600 text-sm md:text-base">
-                    Partnerships with 20+ universities across 5+ countries ensuring 
-                    the best options for every student.
+                   Access 20+ universities across 10+ countries through our trusted global partnerships.
                   </p>
                 </div>
               </div>
@@ -122,8 +119,7 @@ const AboutUs = () => {
                 <div>
                   <h4 className="text-lg font-bold text-gray-900 mb-2">End-to-End Support</h4>
                   <p className="text-gray-600 text-sm md:text-base">
-                    From initial consultation to post-arrival assistance, we support 
-                    you at every step of your journey.
+                    From applications to visas and arrival, we support you at every step.
                   </p>
                 </div>
               </div>
@@ -141,11 +137,15 @@ const AboutUs = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <FaCheckCircle className="w-4 h-4 text-green-500 flex-shrink-0" />
-                <span className="text-gray-700 text-sm md:text-base">Scholarship Assistance</span>
+                <span className="text-gray-700 text-sm md:text-base">University & Program Selection</span>
               </div>
               <div className="flex items-center space-x-3">
                 <FaCheckCircle className="w-4 h-4 text-green-500 flex-shrink-0" />
-                <span className="text-gray-700 text-sm md:text-base">Accommodation Help</span>
+                <span className="text-gray-700 text-sm md:text-base">Scholarship & Funding Guidance</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <FaCheckCircle className="w-4 h-4 text-green-500 flex-shrink-0" />
+                <span className="text-gray-700 text-sm md:text-base">Accommodation Assistance</span>
               </div>
             </div>
             

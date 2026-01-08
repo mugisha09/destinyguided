@@ -95,10 +95,12 @@ const Vision = () => {
 
           {/* Call to Action */}
           <div className="text-center">
-            <button className="inline-flex items-center px-8 py-3 bg-gradient-to-r from-red-600 to-red-700 text-white font-semibold rounded-full hover:from-red-700 hover:to-red-800 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl group">
-              <span>Join Our Vision</span>
-              <FaStar className="ml-2 w-4 h-4 group-hover:rotate-12 transition-transform" />
-            </button>
+            <a href="#booking">
+              <button className="inline-flex items-center px-8 py-3 bg-gradient-to-r from-red-600 to-red-700 text-white font-semibold rounded-full hover:from-red-700 hover:to-red-800 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl group">
+                <span>Join Our Vision</span>
+                <FaStar className="ml-2 w-4 h-4 group-hover:rotate-12 transition-transform" />
+              </button>
+            </a>
           </div>
         </div>
       </div>

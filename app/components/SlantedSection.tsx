@@ -2,31 +2,31 @@ export default function SlantedSection() {
   const stages = [
     {
       number: "01",
-      title: "Counselling Meeting",
-      description: "Discuss snap options",
+      title: "Free Career & Purpose Assessment",
+      description: "Exploring career options",
       icon: (
         <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M8 10h.01M12 10h.01M16 10h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4-.8L3 20l1.49-3.72C3.55 15.02 3 13.57 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
       )
     },
     {
       number: "02",
-      title: "Choosing Universities",
-      description: "Selecting the right universities",
+      title: "University & Program Selection",
+      description: "Selecting the right universities and programs",
       icon: (
         <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
       )
     },
     {
       number: "03",
-      title: "Applications",
-      description: "Handling admission process",
+      title: "Visa Application Support",
+      description: "Assessing the required documentation",
       icon: (
         <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M20 21V7a2 2 0 00-2-2h-5l-2-2H6a2 2 0 00-2 2v14" />
       )
     },
     {
       number: "04",
-      title: "Financial Guidance",
+      title: "Scholarship & Funding Guidance",
       description: "Guidance on financial matters",
       icon: (
         <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M12 8c-2.21 0-4 .895-4 2s1.79 2 4 2 4 .895 4 2-1.79 2-4 2M12 4v2m0 12v2" />
@@ -34,7 +34,7 @@ export default function SlantedSection() {
     },
     {
       number: "05",
-      title: "Accommodation",
+      title: "Accommodation Assistance",
       description: "Finding suitable housing",
       icon: (
         <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M3 10l9-7 9 7v10a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
@@ -72,10 +72,10 @@ export default function SlantedSection() {
         {/* Title */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-wide">
-            OUR PROCESS
+            OUR SERVICES
           </h1>
           <p className="text-xl text-white/80 max-w-2xl mx-auto">
-            A streamlined 6-stage approach to ensure your educational journey is smooth and successful
+            A streamlined approach to ensure your educational journey is smooth and successful
           </p>
         </div>
 
@@ -133,23 +133,25 @@ export default function SlantedSection() {
 
         {/* Button */}
         <div className="text-center">
-          <button className="
-            group
-            bg-white text-[#FF9800]
-            px-8 py-4
-            rounded-full
-            font-bold text-lg
-            hover:bg-gray-100
-            transform hover:scale-105
-            transition-all duration-300
-            shadow-lg hover:shadow-xl
-            inline-flex items-center gap-3
-          ">
-            APROACH US NOW
-            <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-            </svg>
-          </button>
+          <a href="#booking">
+              <button className="
+                group
+                bg-white text-[#FF9800]
+                px-8 py-4
+                rounded-full
+                font-bold text-lg
+                hover:bg-gray-100
+                transform hover:scale-105
+                transition-all duration-300
+                shadow-lg hover:shadow-xl
+                inline-flex items-center gap-3
+              ">
+                APROACH US NOW
+                <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </button>
+          </a>
         </div>
 
         {/* Decorative dots */}
