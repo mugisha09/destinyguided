@@ -77,7 +77,7 @@ const Footer = () => {
                 {
                   icon: <FaLinkedinIn />,
                   label: 'LinkedIn',
-                  link: 'https://www.linkedin.com',
+                  link: 'https://www.linkedin.com/company/destiny-guided/',
                   color: 'hover:bg-blue-100 text-blue-700',
                 },
               ].map((social, index) => (

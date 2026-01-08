@@ -33,10 +33,10 @@ const Header = () => {
   ];
 
   const socialIcons = [
-    { icon: <FaFacebookF />, href: '#', label: 'Facebook' },
-    { icon: <FaTwitter />, href: '#', label: 'Twitter' },
-    { icon: <FaInstagram />, href: '#', label: 'Instagram' },
-    { icon: <FaLinkedinIn />, href: '#', label: 'LinkedIn' },
+    { icon: <FaFacebookF />, href: 'https://www.facebook.com', label: 'Facebook' },
+    { icon: <FaTwitter />, href: 'https://twitter.com', label: 'Twitter' },
+    { icon: <FaInstagram />, href: 'https://www.instagram.com/destinyguided?igsh=MXlkYTRqZHp5aGFu&utm_source=qr', label: 'Instagram' },
+    { icon: <FaLinkedinIn />, href: 'https://www.linkedin.com/company/destiny-guided/', label: 'LinkedIn' },
   ];
 
   return (
